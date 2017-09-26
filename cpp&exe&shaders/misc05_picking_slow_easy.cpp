@@ -641,7 +641,7 @@ int initWindow(void)
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
     
     // Open a window and create its OpenGL context
-    window = glfwCreateWindow(window_width, window_height, "Wang,Zun(6151-0196)", NULL, NULL);
+    window = glfwCreateWindow(window_width, window_height, "WANG,ZUN(6151-0196)", NULL, NULL);
     if (window == NULL) {
         fprintf(stderr, "Failed to open GLFW window. If you have an Intel GPU, they are not 3.3 compatible. Try the 2.1 version of the tutorials.\n");
         glfwTerminate();
